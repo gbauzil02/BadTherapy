@@ -97,7 +97,7 @@ if __name__ == "__main__":
             shortPause()
             print("Go see a professional...")
             shortPause()
-            print("Expidisiously")
+            print("Expiditiously")
             shortPause()
         helpYou = False
         

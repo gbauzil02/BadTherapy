@@ -58,17 +58,19 @@ if __name__ == "__main__":
         print("Please look at option 6 again before wasting my time...")
         shortPause()
         confirm = input("So are you absolutely sure you're not the problem? \n[1] Yes \n[2] No \n[3] You don't know \n\n")
-        if confirm == 3:
+        if confirm == '3':
             shortPause()
             print(problem)
-            break;
-        elif confirm == 2:
             shortPause()
-            print("Well you should figure that out. Goodbye")
+            break;
+        elif confirm == '2':
+            shortPause()
+            print("\nWell you should figure that out. Goodbye")
+            shortPause()
             break;
         else:
             shortPause()
-            print("That's what they all say...")
+            print("\nThat's what they all say...")
         shortPause()
         cause = input("\nSo how did this problem come about? ")
         
@@ -79,7 +81,7 @@ if __name__ == "__main__":
         shortPause()
         if talking == '1':
             shortPause()
-            print("Oh well you should probably take their advice, and if you don't like it, they're either right...")
+            print("\nOh well you should probably take their advice, and if you don't like it, they're either right...")
             shortPause()
             print("OR")
             shortPause()
@@ -87,13 +89,13 @@ if __name__ == "__main__":
             shortPause()
         elif talking == '2':
             shortPause()
-            print("Well you should probably talk to someone...")
+            print("\nWell you should probably talk to someone...")
             shortPause()
             print("Why are you talking to a python program LOL..")
             shortPause()
         else:
             shortPause()
-            print("Why would you talk to a python program about your issues? ")
+            print("\nWhy would you talk to a python program about your issues? ")
             shortPause()
             print("Go see a professional...")
             shortPause()
@@ -103,19 +105,32 @@ if __name__ == "__main__":
         
     rate = input("So how did I do on a scale of 1-5? (1 being the worst and 5 being the best) ")
     if rate == '1':
+        shortPause()
+        print()
         print(problem())
+        shortPause()
     elif rate == '2':
+        shortPause()
+        print()
         print(problem())
+        shortPause()
     elif rate == '3':
+        shortPause()
+        print()
         print("Maybe you're the one who's mid...goodbye")
+        shortPause()
     elif rate =='4':
+        print()
         print("Everyone is entitled to their own opinion...you just so happen to be right ;)")
+        shortPause()
     elif rate == '5':
+        print()
         print("Wow...")
         shortPause()
         print("If you're in love with me...")
         shortPause()
         print("Just say that next time instead of wasting my time")
+        shortPause()
     else:
         print("Well goodbye")
         
